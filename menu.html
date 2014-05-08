@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>JJK Menu</title>
+		<style type="text/css">
+
+			.menu ul{
+				padding: 0px;
+				margin: 0px;
+				display: inline;
+				background-color: #ffebcd;
+				min-width: 100px
+			}
+			.menu li{
+				display: block;
+				float: left;
+				position: relative;
+				padding: 2px 5px 2px 2px;
+				background-color: #ffebcd;
+			}
+			.menu li ul{
+				display: none;
+				position: absolute;
+			}
+			.menu li:hover ul{
+				display: block;
+			}
+			.menu li ul li{
+				clear: both;
+				padding: 5px;
+			}
+			.menu a{
+				text-decoration: none;
+			}
+			.menu a:visited{
+				color: #292929;
+			}
+			.menu a:active{
+				color: #292929;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li>
+					<a href="#">First SubMenu</a>
+					<ul>
+						<li><a href="#">SubMenu1</a></li>
+						<li><a href="#">SubMenu2</a></li>
+						<li><a href="#">SubMenu3</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Second SubMenu</a>
+					<ul>
+						<li><a href="#">SubMenu1</a></li>
+						<li><a href="#">SubMenu2</a></li>
+						<li><a href="#">SubMenu3</a></li>
+						<li><a href="#">SubMenu4</a></li>
+					</ul>
+				</li>	
+			</ul>
+		</div>
+	</body>
+</html>
